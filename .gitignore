@@ -1,0 +1,14 @@
+# data: not redistributed here (size limit, dataset licence); download from Zenodo, see README
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# private: contain school, supervisor and student details
+admin/
+proposal/
+
+# system / build
+.DS_Store
+__pycache__/
+*.pyc

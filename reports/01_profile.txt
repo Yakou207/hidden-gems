@@ -1,0 +1,190 @@
+=== log_random_4_22_to_5_08_pure.csv  shape=(1186059, 19)
+full-row duplicates: 10
+columns with NA: {}
+                   dtype  nunique           min           max          mean
+user_id            int64    27285  0.000000e+00  2.728400e+04  1.361893e+04
+video_id           int64     7583  0.000000e+00  7.582000e+03  3.705646e+03
+date               int64       17  2.022042e+07  2.022051e+07  2.022048e+07
+hourmin            int64       24  0.000000e+00  2.300000e+03  1.408593e+03
+time_ms            int64  1185334  1.650595e+12  1.652025e+12  1.651466e+12
+is_click           int64        2  0.000000e+00  1.000000e+00  1.761582e-01
+is_like            int64        2  0.000000e+00  1.000000e+00  4.798244e-03
+is_follow          int64        2  0.000000e+00  1.000000e+00  2.613698e-04
+is_comment         int64        2  0.000000e+00  1.000000e+00  3.465258e-04
+is_forward         int64        2  0.000000e+00  1.000000e+00  3.389376e-04
+is_hate            int64        2  0.000000e+00  1.000000e+00  1.139066e-03
+long_view          int64        2  0.000000e+00  1.000000e+00  8.496120e-02
+play_time_ms       int64    69298  0.000000e+00  1.023809e+06  6.935511e+03
+duration_ms        int64     5757  0.000000e+00  1.177720e+06  1.044388e+05
+profile_stay_time  int64       41  0.000000e+00  8.950300e+04  4.178536e-01
+comment_stay_time  int64     7681  0.000000e+00  3.000000e+05  7.735394e+01
+is_profile_enter   int64        2  0.000000e+00  1.000000e+00  5.562118e-03
+is_rand            int64        1  1.000000e+00  1.000000e+00  1.000000e+00
+tab                int64        4  1.000000e+00  1.400000e+01  1.063242e+00
+
+=== log_standard_4_08_to_4_21_pure.csv  shape=(1141112, 19)
+full-row duplicates: 15609
+columns with NA: {}
+                   dtype  nunique           min           max          mean
+user_id            int64    26210  0.000000e+00  2.728400e+04  1.358430e+04
+video_id           int64     7538  0.000000e+00  7.582000e+03  3.903322e+03
+date               int64       13  2.022041e+07  2.022042e+07  2.022041e+07
+hourmin            int64       24  0.000000e+00  2.300000e+03  1.458473e+03
+time_ms            int64  1052464  1.649476e+12  1.650556e+12  1.649794e+12
+is_click           int64        2  0.000000e+00  1.000000e+00  4.634471e-01
+is_like            int64        2  0.000000e+00  1.000000e+00  1.867652e-02
+is_follow          int64        2  0.000000e+00  1.000000e+00  1.006913e-03
+is_comment         int64        2  0.000000e+00  1.000000e+00  2.567671e-03
+is_forward         int64        2  0.000000e+00  1.000000e+00  9.955202e-04
+is_hate            int64        2  0.000000e+00  1.000000e+00  4.206423e-04
+long_view          int64        2  0.000000e+00  1.000000e+00  3.366199e-01
+play_time_ms       int64   142635  0.000000e+00  9.647740e+05  2.326055e+04
+duration_ms        int64     5726  0.000000e+00  1.177720e+06  9.787990e+04
+profile_stay_time  int64      121  0.000000e+00  3.000000e+05  3.306024e+00
+comment_stay_time  int64    21968  0.000000e+00  3.000000e+05  5.529442e+02
+is_profile_enter   int64        2  0.000000e+00  1.000000e+00  2.539102e-02
+is_rand            int64        1  0.000000e+00  0.000000e+00  0.000000e+00
+tab                int64       15  0.000000e+00  1.400000e+01  1.284315e+00
+
+=== log_standard_4_22_to_5_08_pure.csv  shape=(295497, 19)
+full-row duplicates: 6378
+columns with NA: {}
+                   dtype  nunique           min           max          mean
+user_id            int64    25877  0.000000e+00  2.728400e+04  1.368053e+04
+video_id           int64     6618  0.000000e+00  7.581000e+03  3.776443e+03
+date               int64       17  2.022042e+07  2.022051e+07  2.022046e+07
+hourmin            int64       24  0.000000e+00  2.300000e+03  1.412668e+03
+time_ms            int64   286277  1.650553e+12  1.652025e+12  1.651261e+12
+is_click           int64        2  0.000000e+00  1.000000e+00  4.450028e-01
+is_like            int64        2  0.000000e+00  1.000000e+00  1.771253e-02
+is_follow          int64        2  0.000000e+00  1.000000e+00  1.333347e-03
+is_comment         int64        2  0.000000e+00  1.000000e+00  2.460262e-03
+is_forward         int64        2  0.000000e+00  1.000000e+00  8.324958e-04
+is_hate            int64        2  0.000000e+00  1.000000e+00  7.783497e-04
+long_view          int64        2  0.000000e+00  1.000000e+00  3.133805e-01
+play_time_ms       int64    72673  0.000000e+00  8.981470e+05  2.147414e+04
+duration_ms        int64     5181  0.000000e+00  1.177720e+06  1.053542e+05
+profile_stay_time  int64       25  0.000000e+00  3.000000e+05  2.259245e+00
+comment_stay_time  int64     9262  0.000000e+00  3.000000e+05  4.588796e+02
+is_profile_enter   int64        2  0.000000e+00  1.000000e+00  1.868716e-02
+is_rand            int64        1  0.000000e+00  0.000000e+00  0.000000e+00
+tab                int64       15  0.000000e+00  1.400000e+01  1.432850e+00
+
+=== user_features_pure.csv  shape=(27285, 31)
+full-row duplicates: 0
+columns with NA: {'onehot_feat4': 874, 'onehot_feat12': 714, 'onehot_feat13': 714, 'onehot_feat14': 714, 'onehot_feat15': 714, 'onehot_feat16': 714, 'onehot_feat17': 714}
+                         dtype  nunique    min        max          mean
+user_id                  int64    27285    0.0    27284.0  13642.000000
+user_active_degree         str        9    NaN        NaN           NaN
+is_lowactive_period      int64        1    0.0        0.0      0.000000
+is_live_streamer         int64        2 -124.0        1.0    -95.788528
+is_video_author          int64        2    0.0        1.0      0.816419
+follow_user_num          int64     2562    0.0     5003.0    409.832729
+follow_user_num_range      str        8    NaN        NaN           NaN
+fans_user_num            int64     2210    0.0  1986249.0    602.727946
+fans_user_num_range        str        9    NaN        NaN           NaN
+friend_user_num          int64     1391    0.0     4995.0    119.298332
+friend_user_num_range      str        7    NaN        NaN           NaN
+register_days            int64     2813   14.0     3624.0   1204.401283
+register_days_range        str        8    NaN        NaN           NaN
+onehot_feat0             int64        2    0.0        1.0      0.563093
+onehot_feat1             int64        7    0.0        6.0      2.958072
+onehot_feat2             int64       50    0.0       49.0     16.217409
+onehot_feat3             int64     1471    0.0     1470.0    784.657651
+onehot_feat4           float64       15    0.0       14.0      2.165007
+onehot_feat5             int64       34    0.0       33.0      0.079494
+onehot_feat6             int64        3    0.0        2.0      0.465934
+onehot_feat7             int64      118    0.0      117.0     21.036577
+onehot_feat8             int64      454    0.0      453.0    231.788712
+onehot_feat9             int64        7    0.0        6.0      3.553601
+onehot_feat10            int64        5    0.0        4.0      2.380429
+onehot_feat11            int64        5    0.0        4.0      0.500055
+onehot_feat12          float64        2    0.0        1.0      0.723872
+onehot_feat13          float64        2    0.0        1.0      0.068195
+onehot_feat14          float64        2    0.0        1.0      0.119115
+onehot_feat15          float64        2    0.0        1.0      0.022694
+onehot_feat16          float64        2    0.0        1.0      0.040382
+onehot_feat17          float64        2    0.0        1.0      0.014489
+  [user_active_degree] top values: {'full_active': 17959, 'high_active': 6158, 'middle_active': 2133, '2_14_day_new': 635, 'low_active': 300, 'single_low_active': 68, '30day_retention': 15, 'day_new': 11}
+  [follow_user_num_range] top values: {'500+': 5950, '(10,50]': 4904, '(250,500]': 4377, '(50,100]': 4004, '(150,250]': 3490, '(100,150]': 2633, '(0,10]': 1739, '0': 188}
+  [fans_user_num_range] top values: {'[10,100)': 10467, '[100,1k)': 8664, '[1,10)': 5326, '[1k,5k)': 1460, '0': 1157, '[5k,1w)': 112, '[1w,10w)': 85, '[10w,100w)': 12}
+  [friend_user_num_range] top values: {'[5,30)': 7595, '[1,5)': 5270, '0': 3375, '250+': 3172, '[30,60)': 2852, '[60,120)': 2749, '[120,250)': 2272}
+  [register_days_range] top values: {'730+': 20063, '366-730': 3475, '181-365': 1778, '91-180': 1048, '61-90': 394, '31-60': 381, '15-30': 145, '8-14': 1}
+
+=== video_features_basic_pure.csv  shape=(7583, 12)
+full-row duplicates: 0
+columns with NA: {'video_duration': 239, 'music_type': 203, 'tag': 96}
+                  dtype  nunique     min           max          mean
+video_id          int64     7583     0.0  7.582000e+03  3.791000e+03
+author_id         int64     6510     0.0  8.733983e+06  5.137301e+06
+video_type          str        3     NaN           NaN           NaN
+upload_dt           str        3     NaN           NaN           NaN
+upload_type         str       14     NaN           NaN           NaN
+visible_status  float64        1     0.0  0.000000e+00  0.000000e+00
+video_duration  float64     5756  5000.0  1.177720e+06  1.086159e+05
+server_width    float64      156   270.0  2.400000e+03  8.500298e+02
+server_height   float64      120   448.0  2.400000e+03  1.140159e+03
+music_id          int64     7202     0.0  9.170219e+09  8.510535e+09
+music_type      float64        5     4.0  1.100000e+01  8.546341e+00
+tag                 str      110     NaN           NaN           NaN
+  [video_type] top values: {'NORMAL': 7506, 'AD': 76, 'UNKNOWN': 1}
+  [upload_dt] top values: {'2022-04-10': 3424, '2022-04-09': 2832, '2022-04-11': 1327}
+  [upload_type] top values: {'LongImport': 2925, 'Web': 2416, 'ShortImport': 917, 'Kmovie': 879, 'LongPicture': 143, 'UNKNOWN': 80, 'PictureSet': 73, 'LongCamera': 64}
+  [tag] top values: {'39': 815, '3': 651, '9': 418, '6': 378, '20': 344, '7': 340, '39,68': 328, '12': 307}
+
+=== video_features_statistic_pure.csv  shape=(7583, 52)
+full-row duplicates: 0
+columns with NA: {}
+                            dtype  nunique            min           max          mean
+video_id                    int64     7583       0.000000  7.582000e+03  3.791000e+03
+counts                      int64      125      45.000000  1.810000e+02  1.418370e+02
+show_cnt                  float64     7583      65.250000  5.351301e+05  1.055244e+04
+show_user_num             float64     7583      62.044118  4.723556e+05  9.252094e+03
+play_cnt                  float64     7580      33.310811  5.385637e+05  7.747172e+03
+play_user_num             float64     7583      29.918919  4.800391e+05  6.907637e+03
+play_duration             float64     7583  191287.986486  3.471300e+10  3.068027e+08
+complete_play_cnt         float64     7573       1.108108  2.566297e+05  1.887164e+03
+complete_play_user_num    float64     7572       0.945946  2.417381e+05  1.811506e+03
+valid_play_cnt            float64     7581       5.770270  3.265299e+05  4.589036e+03
+valid_play_user_num       float64     7578       5.243243  3.007703e+05  4.348710e+03
+long_time_play_cnt        float64     7582       0.000000  3.011358e+05  3.687352e+03
+long_time_play_user_num   float64     7578       0.000000  2.784434e+05  3.522546e+03
+short_time_play_cnt       float64     7582       0.000000  1.607850e+05  2.107190e+03
+short_time_play_user_num  float64     7581       0.000000  1.440639e+05  1.918931e+03
+play_progress             float64     7583       0.000000  5.713283e-01  1.709962e-01
+comment_stay_duration     float64     7583     922.715909  1.535226e+09  6.404926e+06
+like_cnt                  float64     7525       0.454545  1.739617e+04  2.307452e+02
+like_user_num             float64     7545       0.441558  1.729005e+04  2.267999e+02
+click_like_cnt            float64     7488       0.237624  7.188601e+03  1.048586e+02
+double_click_cnt          float64     7477       0.194805  1.013674e+04  1.238853e+02
+cancel_like_cnt           float64     7136       0.025974  1.443672e+03  1.875624e+01
+cancel_like_user_num      float64     7107       0.025974  1.160361e+03  1.635909e+01
+comment_cnt               float64     6906       0.000000  3.116977e+03  1.293366e+01
+comment_user_num          float64     6834       0.000000  2.613247e+03  1.089251e+01
+direct_comment_cnt        float64     6772       0.000000  2.071559e+03  8.910899e+00
+reply_comment_cnt         float64     5526       0.000000  1.713908e+03  4.022761e+00
+delete_comment_cnt        float64     3635       0.000000  4.008207e+02  6.791974e-01
+delete_comment_user_num   float64     3448       0.000000  1.812597e+02  5.338156e-01
+comment_like_cnt          float64     6867       0.000000  8.177851e+03  4.122101e+01
+comment_like_user_num     float64     6592       0.000000  2.866908e+03  2.097063e+01
+follow_cnt                float64     7117       0.000000  1.829872e+03  1.740857e+01
+follow_user_num           float64     7076       0.000000  1.828083e+03  1.733722e+01
+cancel_follow_cnt         float64     5999       0.000000  1.272767e+02  2.319408e+00
+cancel_follow_user_num    float64     5968       0.000000  1.270189e+02  2.298107e+00
+share_cnt                 float64     6064       0.000000  1.354125e+03  4.914521e+00
+share_user_num            float64     5983       0.000000  1.151012e+03  4.404532e+00
+download_cnt              float64     5346       0.000000  6.395682e+02  4.423281e+00
+download_user_num         float64     5314       0.000000  4.741938e+02  3.893052e+00
+report_cnt                float64      406       0.000000  1.253731e+00  5.098132e-03
+report_user_num           float64      364       0.000000  1.149254e+00  4.472708e-03
+reduce_similar_cnt        float64     6802       0.026316  3.337816e+02  6.095691e+00
+reduce_similar_user_num   float64     6761       0.026316  2.866437e+02  5.764566e+00
+collect_cnt               float64     7290       0.029412  5.866918e+03  2.874769e+01
+collect_user_num          float64     7274       0.029412  5.798582e+03  2.762453e+01
+cancel_collect_cnt        float64     6680       0.000000  7.716071e+02  7.619890e+00
+cancel_collect_user_num   float64     6599       0.000000  7.491131e+02  7.160008e+00
+direct_comment_user_num   float64     6771       0.000000  1.368115e+03  8.157847e+00
+reply_comment_user_num    float64     5192       0.000000  1.459994e+03  3.210997e+00
+share_all_cnt             float64     6650       0.000000  1.721554e+03  8.233228e+00
+share_all_user_num        float64     6557       0.000000  1.461238e+03  7.137478e+00
+outsite_share_all_cnt     float64     6270       0.000000  1.589762e+03  5.205727e+00
